@@ -1,15 +1,15 @@
-Queremos ayudar a una agencia matrimonial a armar parejas. La agencia tiene estas reglas:
+Queremos ayudar a una agencia matrimonial a armar parejas según los signos del zodíaco. La agencia tiene estas reglas:
 
-* Las mujeres melancólicas son compatibles con los varones serenos.
-* Las mujeres decididas son compatibles con los varones reflexivos.
-* Las mujeres soñadoras son compatibles con los varones decididos.
+* Las personas de libra con ascendente en piscis son compatibles con las de capricornio con ascendente en aries.
+* Las de acuario con ascendente en sagitario son compatibles con las de leo con ascendente en géminis.
+* Las de leo con ascendente en aries son compatibles con las de libra con ascendente en sagitario. 
 
-> Desarrollá `esCompatible/2`: que relaciona a una mujer y un hombre cuando son compatibles.
+> Desarrollá `esCompatible/2`: que relaciona a dos personas cuando son compatibles.
 > 
-> ```prolog
-> ?- esCompatible(maria,juan).
+> ``prolog
+> ?- esCompatible(maria,sara).
 > yes.
 > 
-> ```
+> ``
 > 
-> Asumí que ya existe en la base de conocimiento hechos de la forma `sereno/1`, `decidido/1`, `melancolico/1`, `soniador/1`, `reflexivo/1`, `hombre/1` y `mujer/1`.
+> Asumí que ya existe en la base de conocimiento hechos de la forma `deLibra/1`, `deAcuario/1`, `deLeo/1`, `deCapricornio/1`, `ascendenteEnAries/1`, `ascendenteEnPiscis/1`, `ascendenteEnGeminis/1` y `ascendenteEnSagitario/1`.

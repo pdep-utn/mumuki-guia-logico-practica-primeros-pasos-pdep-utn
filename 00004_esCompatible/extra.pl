@@ -1,21 +1,23 @@
-mujer(ana).
-mujer(maria).
-mujer(isabel).
-mujer(sharon).
+deLibra(luis).
+deLibra(mario).
 
-hombre(jose).
-hombre(ernesto).
-hombre(mario).
+deAcuario(maria).
+deAcuario(elena).
 
-soniador(isabel).
-soniador(sharon).
+deCapricornio(veronica).
+deCapricornio(jose).
 
-sereno(jose).
-sereno(ana).
+deLeo(isabel).
+deLeo(sara).
 
-decidido(maria).
-decidido(mario).
+ascendenteEnPiscis(luis).
 
-melancolico(ana).
+ascendenteEnAries(veronica).
+ascendenteEnAries(isabel).
+ascendenteEnAries(jose).
 
-reflexivo(ernesto).
+ascendenteEnSagitario(maria).
+ascendenteEnSagitario(elena).
+ascendenteEnSagitario(mario).
+
+ascendenteEnGeminis(sara).
