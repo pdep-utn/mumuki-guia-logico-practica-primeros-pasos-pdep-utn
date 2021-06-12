@@ -9,7 +9,7 @@ test(no_puedeAndar_en_contaduria_si_no_es_contandor_y_es_honesto) :-
 test(no_puedeAndar_en_contaduria_si_no_es_contandor) :-
   \+ puedeAndar(contaduria, maria).
 
-test(lucia_puedeAndar_en_ventas) :-
+test(lucia_puedeAndar_en_ventas, nondet) :-
   puedeAndar(ventas, lucia).
 
 test(puedeAndar_en_ventas_si_es_ambicioso_con_experiencia) :-
