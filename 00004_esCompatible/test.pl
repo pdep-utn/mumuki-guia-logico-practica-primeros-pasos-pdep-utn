@@ -4,6 +4,9 @@ test(personas_librianas_con_ascendente_en_piscis_son_compatibles_con_capricornia
   test(personas_acuarianas_con_ascendente_en_sagitario_son_compatibles_con_leoninas_con_ascendente_en_geminis, [nondet]) :-
     esCompatible(maria, sara).
   
+  test(personas_leoninas_con_ascendente_en_geminis_son_compatibles_con_acuarianas_con_ascendente_en_sagitario, [nondet]) :-
+    esCompatible(sara,maria).
+    
   test(personas_leoninas_con_ascendente_en_aries_no_son_compatibles_con_personas_de_libra_sin_ascendente_en_sagitario, [nondet]) :-
     esCompatible(isabel, mario).
   
