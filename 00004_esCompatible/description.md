@@ -9,6 +9,9 @@ Desarrollá `esCompatible/2`: que relaciona a dos personas cuando son compatible
 ```prolog
 ?- esCompatible(maria,sara).
 yes.
+
+?- esCompatible(sara,maria).
+yes.
 ```
 
 Asumí que ya existen en la base de conocimiento hechos de la forma `deLibra/1`, `deAcuario/1`, `deLeo/1`, `deCapricornio/1`, `ascendenteEnAries/1`, `ascendenteEnPiscis/1`, `ascendenteEnGeminis/1` y `ascendenteEnSagitario/1`.
