@@ -25,14 +25,14 @@ test(a_mabel_le_atrae_el_azul):-
 test(a_mabel_le_atrae_el_rosa):-
   atraeA(mabel, rosa).
 
-
 test(a_mabel_le_atrae_el_amarillo):-
   atraeA(mabel, amarillo).
 
+test(a_adrian_le_atrae_el_amarillo):-
+  atraeA(adrian, amarillo).
 
 test(a_ana_le_atrae_el_naranja):-
   atraeA(ana, naranja).
-
 
 test(a_ana_NO_le_atrae_el_amarilo):-
   \+ atraeA(ana, amarillo).
